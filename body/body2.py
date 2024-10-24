@@ -1,7 +1,5 @@
-import math
-#import matplotlib.pyplot as plt
-
 import math, sys
+#import matplotlib.pyplot as plt
 
 k_input_text = "k = "
 point_input_text = "point(x, y): "
