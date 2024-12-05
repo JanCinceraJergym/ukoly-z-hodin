@@ -1,5 +1,11 @@
+import sys
+
+if len(sys.argv) <= 1:
+    exit(-1)
+filename = sys.argv[1]
+
 T = 0
-with open("knihy.txt", "r") as ipf:
+with open(filename, "r") as ipf:
     T = int(ipf.readline())
     for _ in range(T):
         N = int(ipf.readline())

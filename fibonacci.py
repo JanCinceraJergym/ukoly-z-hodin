@@ -38,5 +38,5 @@ def f2(n: int) -> int:
     return a
 
 n = int(input())
-print(f1(n))
+#print(f1(n))
 print(f2(n))
