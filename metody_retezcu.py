@@ -18,7 +18,7 @@ def generator_akronym(s: str) -> str:
 # 5. Caesarova šifra
 def caesarova_sifra(s: str, posun: int, zasifrovat: bool = True) -> str:
     abeceda = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    return "".join(map(lambda c: abeceda[(abeceda.find(c) + (posun if zasifrovat else -posun )) % (len(abeceda))], list(s)))
+    return "".join(map(lambda c: abeceda[(abeceda.find(c) + (posun if zasifrovat else -posun)) % (len(abeceda))], list(s)))
 
 # 6. Pocet slov
 def pocet_slov(s: str) -> int:
